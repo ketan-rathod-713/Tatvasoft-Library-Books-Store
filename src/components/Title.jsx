@@ -2,7 +2,8 @@ import React from "react";
 
 const Title = (props) => {
   return <div>
-    {props.title}
+    <div>{props.title}</div>
+    <div>{props.description}</div>
   </div>;
 };
 
